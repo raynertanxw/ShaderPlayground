@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Lesson7
-  m_Shader: {fileID: 4800000, guid: fcb2fca7196f84cd5965eeff4cbac394, type: 3}
+  m_Name: 3b_Specular
+  m_Shader: {fileID: 4800000, guid: 6542b765f2f2342b2bec50a732c6daca, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 2000
@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 0a0e8af2869fa45f78e25460db578482, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -78,20 +78,6 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _BumpTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 94c473c9137744d7eabd829f1150da8d, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Cube
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -105,6 +91,10 @@ Material:
         first:
           name: _Cutoff
         second: 0.5
+      data:
+        first:
+          name: _Shininess
+        second: 5
       data:
         first:
           name: _Parallax
@@ -141,22 +131,6 @@ Material:
         first:
           name: _Metallic
         second: 0
-      data:
-        first:
-          name: _TintValue
-        second: 0.4
-      data:
-        first:
-          name: _Darkness
-        second: 0.5
-      data:
-        first:
-          name: _SpecPower
-        second: 1
-      data:
-        first:
-          name: _RimPower
-        second: 2.9
     m_Colors:
       data:
         first:
@@ -169,16 +143,4 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: 0.252, g: 0.252, b: 0.252, a: 1}
-      data:
-        first:
-          name: _ColorTint
         second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _Coord
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _RimColor
-        second: {r: 0.37597317, g: 0.89705884, b: 0.7245616, a: 1}

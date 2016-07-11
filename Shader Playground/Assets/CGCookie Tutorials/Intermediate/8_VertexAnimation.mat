@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 8_VertexAnimation
+  m_Shader: {fileID: 4800000, guid: cb8323bf524204cfcbc6b40bfa48d688, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs: {}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 10
+      data:
+        first:
+          name: _Intensity
+        second: 10
+      data:
+        first:
+          name: _AdditionalDotTolerence
+        second: 0.5
+      data:
+        first:
+          name: _AnimSpeed
+        second: 100
+      data:
+        first:
+          name: _AnimFreq
+        second: 10
+      data:
+        first:
+          name: _AnimPowerX
+        second: 0.05
+      data:
+        first:
+          name: _AnimPowerY
+        second: 0.05
+      data:
+        first:
+          name: _AnimPowerZ
+        second: 0.05
+      data:
+        first:
+          name: _AnimOffsetX
+        second: 0.5
+      data:
+        first:
+          name: _AnimOffsetY
+        second: 1
+      data:
+        first:
+          name: _AnimOffsetZ
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BackScatter
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Translucence
+        second: {r: 1, g: 1, b: 1, a: 1}
